@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  subject: MyString
+  text: MyText
+  date: 2012-10-17
+  details: MyText
+  text_type_id: 1
+  category_id: 1
+  sender_id: 1
+  relationship_id: 1
+
+two:
+  subject: MyString
+  text: MyText
+  date: 2012-10-17
+  details: MyText
+  text_type_id: 1
+  category_id: 1
+  sender_id: 1
+  relationship_id: 1

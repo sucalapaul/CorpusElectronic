@@ -1,0 +1,23 @@
+<h1>Listing text_types</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @text_types.each do |text_type| %>
+  <tr>
+    <td><%= text_type.name %></td>
+    <td><%= link_to 'Show', text_type %></td>
+    <td><%= link_to 'Edit', edit_text_type_path(text_type) %></td>
+    <td><%= link_to 'Destroy', text_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Text type', new_text_type_path %>
